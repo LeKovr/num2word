@@ -1,23 +1,4 @@
-/*
-
-  Оригинальное название: number2word
-  Источник: http://oraclub.trecom.tomsk.su/db/web.page?pid=461
-  В конференцию relcom.comp.dbms.oracle поместил "Igor Volkov" (volkov@rdtex.msk.ru)
-
-DECLARE
-  result TEXT;
-BEGIN
-  -- k - копейки
-  result := ltrim(to_char( source,
-    '9,9,,9,,,,,,9,9,,9,,,,,9,9,,9,,,,9,9,,9,,,.99')) || 'k';
-
-  -- t - тысячи; m - милионы; M - миллиарды;
-  result := replace( result, ',,,,,,', 'eM');
-  result := replace( result, ',,,,,', 'em');
-  result := replace( result, ',,,,', 'et');
-  ...
-
-*/
+// Number to words converter
 package num2word
 
 import (
@@ -112,10 +93,10 @@ var repl = [][]string{
 
 var mask = []string{",,,", ",,", ",", ",,,,", ",,", ",", ",,,,,", ",,", ",", ",,,,,,", ",,", ","}
 
-// RusAmount - деньги прописью на русском
-func RusAmount(src float64, doUp bool) string {
+// RuMoney - деньги прописью на русском
+func RuMoney(number float64, upperFirstChar bool) string {
 
-	s := fmt.Sprintf("%.2f", src)
+	s := fmt.Sprintf("%.2f", number)
 	l := len(s)
 
 	dest := s[l-3:l] + "k"
@@ -129,11 +110,10 @@ func RusAmount(src float64, doUp bool) string {
 	for _, r := range repl {
 		dest = strings.Replace(dest, r[0], r[1], -1)
 	}
-	if doUp {
+	if upperFirstChar {
 		a := []rune(dest)
 		a[0] = unicode.ToUpper(a[0])
 		dest = string(a)
 	}
 	return dest
 }
-
