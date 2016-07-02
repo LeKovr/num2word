@@ -7,8 +7,8 @@ num2word
 
 [1]: https://godoc.org/github.com/LeKovr/num2word?status.svg
 [2]: https://godoc.org/github.com/LeKovr/num2word
-[3]: https://goreportcard.com/badge/LeKovr/dbcc
-[4]: https://goreportcard.com/report/github.com/LeKovr/dbcc
+[3]: https://goreportcard.com/badge/LeKovr/num2word
+[4]: https://goreportcard.com/report/github.com/LeKovr/num2word
 
 [num2word](https://github.com/LeKovr/num2word) - Числа прописью
 
