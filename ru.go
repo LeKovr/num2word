@@ -1,4 +1,4 @@
-// package num2word holds Number to words converter
+// Package num2word holds Number to words converter
 package num2word
 
 import (
