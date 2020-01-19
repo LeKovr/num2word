@@ -6,7 +6,6 @@ num2word
  [![codecov][cc1]][cc2]
  [![Build Status][bs1]][bs2]
  [![GoCard][gc1]][gc2]
- [![GitHub Release][gr1]][gr2]
  [![GitHub license][gl1]][gl2]
 
 [bs1]: https://cloud.drone.io/api/badges/LeKovr/num2word/status.svg
@@ -17,8 +16,6 @@ num2word
 [gd2]: https://godoc.org/github.com/LeKovr/num2word
 [gc1]: https://goreportcard.com/badge/github.com/LeKovr/num2word
 [gc2]: https://goreportcard.com/report/github.com/LeKovr/num2word
-[gr1]: https://img.shields.io/github/v/release/LeKovr/num2word.svg
-[gr2]: https://github.com/LeKovr/num2word/releases
 [gl1]: https://img.shields.io/github/license/LeKovr/num2word.svg
 [gl2]: LICENSE
 
