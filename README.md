@@ -15,7 +15,7 @@ num2word
 [cc2]: https://codecov.io/gh/LeKovr/num2word
 [gd1]: https://godoc.org/github.com/LeKovr/num2word?status.svg
 [gd2]: https://godoc.org/github.com/LeKovr/num2word
-[gc1]: https://goreportcard.com/badge/github.com/apisite/tpl2x
+[gc1]: https://goreportcard.com/badge/github.com/LeKovr/num2word
 [gc2]: https://goreportcard.com/report/github.com/LeKovr/num2word
 [gr1]: https://img.shields.io/github/release-pre/LeKovr/num2word.svg
 [gr2]: https://github.com/LeKovr/num2word/releases
