@@ -17,7 +17,7 @@ num2word
 [gd2]: https://godoc.org/github.com/LeKovr/num2word
 [gc1]: https://goreportcard.com/badge/github.com/LeKovr/num2word
 [gc2]: https://goreportcard.com/report/github.com/LeKovr/num2word
-[gr1]: https://img.shields.io/github/release-pre/LeKovr/num2word.svg
+[gr1]: https://img.shields.io/github/release/LeKovr/num2word.svg
 [gr2]: https://github.com/LeKovr/num2word/releases
 [gl1]: https://img.shields.io/github/license/LeKovr/num2word.svg
 [gl2]: LICENSE
