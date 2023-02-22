@@ -44,7 +44,7 @@ import (
 
 ...
 
-text := num2word.RusAmount(total, true)
+text := num2word.RuMoney(total, true)
 ```
 
 License
